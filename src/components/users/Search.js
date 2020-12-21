@@ -1,6 +1,7 @@
-import React, { useState } from 'react'
+import React, { useState } from 'react';
 
 function Search({ searchUsers, clearUsers, showClear, setAlert }) {
+
 
     const [ text, setText ] = useState('');
 
